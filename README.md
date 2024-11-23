@@ -9,7 +9,6 @@ This project is a RESTful API for a restaurant reservation and ordering system b
   - [Features](#features)
   - [Architecture](#architecture)
     - [Design Patterns Used](#design-patterns-used)
-  - [Project Structure](#project-structure)
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Setup Steps](#setup-steps)
@@ -31,10 +30,6 @@ This project is a RESTful API for a restaurant reservation and ordering system b
 - **Service Pattern**: Encapsulates the business logic of the application, making controllers thinner and focused on handling HTTP requests and responses.
 - **Dependency Injection**: Used throughout the application to inject dependencies, making the code more testable and maintainable.
 - **SOLID Principles**: Applied to ensure a clean and scalable codebase.
-
-## Project Structure
-app/ ├── Controllers/ │ └── API/ │ ├── TableController.php │ ├── ReservationController.php │ ├── MealController.php │ ├── OrderController.php │ └── CheckoutController.php ├── Models/ │ ├── Table.php │ ├── Reservation.php │ ├── Meal.php │ ├── Order.php │ ├── OrderDetail.php │ └── WaitingList.php ├── Repositories/ │ ├── Interfaces/ │ │ ├── TableRepositoryInterface.php │ │ ├── ReservationRepositoryInterface.php │ │ ├── MealRepositoryInterface.php │ │ ├── OrderRepositoryInterface.php │ │ └── WaitingListRepositoryInterface.php │ ├── TableRepository.php │ ├── ReservationRepository.php │ ├── MealRepository.php │ ├── OrderRepository.php │ └── WaitingListRepository.php ├── Services/ │ ├── TableService.php │ ├── ReservationService.php │ ├── MealService.php │ ├── OrderService.php │ └── CheckoutService.php └── Exceptions/ └── InsufficientMealQuantityException.php
-
 
 ## Installation
 
