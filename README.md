@@ -45,8 +45,8 @@ This project is a RESTful API for a restaurant reservation and ordering system b
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/ahmdsadik/whatsapp-clone-chat.git
-    cd whatsapp-clone-chat
+    git clone https://github.com/ahmdsadik/restaurant-reservation-ordering-api.git
+    cd restaurant-reservation-ordering-api
     ```
 
 2. **Install dependencies**:
