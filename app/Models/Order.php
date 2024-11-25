@@ -19,7 +19,6 @@ class Order extends Model
         'waiter_id',
         'total',
         'paid',
-        'date',
     ];
 
     public function table(): BelongsTo

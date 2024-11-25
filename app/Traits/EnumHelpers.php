@@ -24,4 +24,12 @@ trait EnumHelpers
 
         return rtrim($comment, ', ');
     }
+
+    /**
+     * Return a label for enum case
+     */
+    public function label(): string
+    {
+        return ucwords(strtolower(str_replace('_', ' ', $this->name)));
+    }
 }

@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Enums\OrderStatus;
 use App\Models\Customer;
 use App\Models\Order;
 use App\Models\Reservation;
@@ -18,8 +19,7 @@ class OrderFactory extends Factory
     {
         return [
             'total' => $this->faker->randomFloat(),
-            'paid' => $this->faker->boolean(),
-            'date' => Carbon::now(),
+            'paid' => OrderStatus::NOT_PAID,
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
 
