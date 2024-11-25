@@ -80,7 +80,13 @@ This project is a RESTful API for a restaurant reservation and ordering system b
     php artisan db:seed
     ```
 
-7. **Run the development server**:
+7. **Run tests**:
+
+    ```sh
+    php artisan test
+    ```
+
+8. **Run the development server**:
 
     ```sh
     php artisan serve
